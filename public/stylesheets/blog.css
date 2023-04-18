@@ -241,6 +241,11 @@ nav h1 [class*="fa-"] {
     padding: 0.1rem;
 }
 
+@media (max-width: 550px) {
+#intro{
+    font-size:smaller;
+    }
+}
 @media (min-width: 550px) {
     .about-me-image {
         width: 100%;
