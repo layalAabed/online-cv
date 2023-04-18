@@ -456,13 +456,13 @@ and main-author-education.php */
 }
 
 .institution-name {
-    font-size: 20px;
+    font-size: 18pxpx;
     font-family: 'Times New Roman', Times, serif;
     color: var(--white);
     border-radius: 3px;
 }
 
-.title {
+institution-title {
     font-size: 18px;
 }
 
@@ -473,16 +473,16 @@ and main-author-education.php */
 }
 
 .duration p {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .description h2 {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .description p {
 
-    font-size: 16px;
+    font-size: 14px;
     /* margin-left: 20px; */
 }
 /*end main-author-experience.php  
