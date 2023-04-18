@@ -462,8 +462,8 @@ and main-author-education.php */
     border-radius: 3px;
 }
 
-institution-title {
-    font-size: 18px;
+.institution-title {
+    font-size: 16px;
 }
 
 .duration {
