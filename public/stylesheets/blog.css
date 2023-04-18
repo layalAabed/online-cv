@@ -456,7 +456,7 @@ and main-author-education.php */
 }
 
 .institution-name {
-    font-size: 18pxpx;
+    font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     color: var(--white);
     border-radius: 3px;
