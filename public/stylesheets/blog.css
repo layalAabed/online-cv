@@ -267,6 +267,9 @@ nav h1 [class*="fa-"] {
         margin: 0.5rem;
 
     }
+    .frame{
+       width:80%;
+
 }
 
 /* end about-me.php */
@@ -437,7 +440,7 @@ and main-author-education.php */
 .frame {
     border: 2px solid rgb(243, 238, 242);
     border-radius: 5px;
-    width: 50%;
+    width: 90%;
     margin: 1rem auto;
     padding: 10px;
     background-color: #948c8e;
