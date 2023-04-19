@@ -23,7 +23,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     font-size: var(--font-size);
-} 
+}
 
 *,
 *::before,
@@ -52,7 +52,6 @@ nav ul {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    
 }
 
 nav li:first-child {
@@ -168,15 +167,28 @@ nav h1 [class*="fa-"] {
 #intro {
     padding: 0rem 1rem 0rem 1rem;
 }
-
 #intro p {
-    font-size: 1.5rem;
-    line-height: 1;
+    font-size: 18px;
+    color:red;
+   }
+@media (max-width: 550px) {
+    #intro p {
+        font-size: 12px;
+        color:green;
+       }
+       .about-me-image{
+        width:80%;
+       }
+       .description ul{
+        font-size: 14px;
+        background-color: red;
+       }
 }
 
+
 #intro p:first-child {
-    font-size: 1rem;
-    line-height: 1.5;
+    /* font-size: 1rem;
+    line-height: 1.5; */
 }
 
 #intro .f-name {
@@ -223,10 +235,10 @@ nav h1 [class*="fa-"] {
     background-size: cover;
     border-radius: 5px;
     box-shadow: lightblue 5px 5px 35px 2px;
-    width: 60%;
+    /* width: 60%; */
     height: 60%;
     padding: 0.2rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
 }
 
 .text-section {
@@ -241,11 +253,6 @@ nav h1 [class*="fa-"] {
     padding: 0.1rem;
 }
 
-@media (max-width: 550px) {
-#intro{
-    font-size:smaller;
-    }
-}
 @media (min-width: 550px) {
     .about-me-image {
         width: 100%;
@@ -273,11 +280,9 @@ nav h1 [class*="fa-"] {
         margin: 0.5rem;
 
     }
-    .description ul{
-    font-size: 14px;
+  
 }
- 
-}
+
 /* end about-me.php */
 
 /* start main-author-post.php */
@@ -439,36 +444,32 @@ input::file-selector-button {
 
 /* start main-author-experience.php  
 and main-author-education.php */
-.institution-title {
+.title {
     text-align: center;
 }
 
 .frame {
     border: 2px solid rgb(243, 238, 242);
     border-radius: 5px;
-    width: 90%;
+    width: 80%;
     margin: 1rem auto;
     padding: 10px;
     background-color: #948c8e;
     box-shadow: rgb(175 192 192) 2px 5px 8px 0px;
 }
-.frame ul{
-    list-style-type:disc;
-}
-.frame li{
-    font-family: math;
-    margin-top: 10px;
-}
+
+
 .frame div {
     margin-top: 10px;
 }
 
 .institution-name {
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: sans-serif;
     color: var(--white);
     border-radius: 3px;
 }
+
 .institution-title {
     font-size: 16px;
 }
@@ -476,6 +477,7 @@ and main-author-education.php */
 .duration {
     display: flex;
     flex-direction: row;
+    font-size: 14px;
 
 }
 
@@ -484,16 +486,19 @@ and main-author-education.php */
 }
 
 .description h2 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
-.description p {
 
-    font-size: 14px;
-    /* margin-left: 20px; */
-}
 .description ul{
-    font-size: 12px;
+    /* font-size: 16px; */
+    font-weight: bolder;
+    list-style-type:disc;
+}
+.frame li{
+    font-family:sans-serif;
+    margin-top: 14px;
+    font-size: 16px;
 }
 /*end main-author-experience.php  
 and main-author-education.php*/
