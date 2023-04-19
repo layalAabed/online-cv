@@ -103,9 +103,10 @@ nav [class*="fa-"]:hover {
 /* Start Footer Section */
 #footer {
     position: relative;
-    top: 25px;
+    top: 65px;
     text-align: center;
     margin: 0 auto;
+    width: 450px;
 }
 
 #footer h2 {
