@@ -115,7 +115,7 @@ nav [class*="fa-"]:hover {
 #footer ul {
     display: flex;
     flex-direction: row;
-    margin-left: 8rem;
+    margin-left: 6rem;
     gap: 45px;
     text-decoration: none;
     list-style-type: none;
@@ -456,6 +456,7 @@ and main-author-education.php */
     padding: 10px;
     background-color: #948c8e;
     box-shadow: rgb(175 192 192) 2px 5px 8px 0px;
+    font-size:14px;
 }
 
 
