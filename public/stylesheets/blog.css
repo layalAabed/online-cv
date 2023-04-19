@@ -17,7 +17,7 @@ html {
 }
 
 body {
-      overflow: hidden;
+      overflow-x: hidden;
     padding: 0;
     margin: 0;
     font-family: var(--sans);
@@ -214,6 +214,8 @@ nav h1 [class*="fa-"] {
     width:400px;
     margin:0 auto;
    color: white;
+       margin: -27px auto 0 auto;
+    font-size: 14px;
     
 }
 .contact-content a{
