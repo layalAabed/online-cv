@@ -115,7 +115,7 @@ nav [class*="fa-"]:hover {
 #footer ul {
     display: flex;
     flex-direction: row;
-    margin-left: 6rem;
+    margin-left: 8rem;
     gap: 45px;
     text-decoration: none;
     list-style-type: none;
